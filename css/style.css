@@ -1,0 +1,35 @@
+body{
+    background: url(../img/imagen.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
+}
+.contenedor{
+    margin: 80px;
+}
+.formulario{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 40px 50px;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+.formulario, .titulo, .checkbox{
+    margin-bottom: 30px;
+}
+input{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+p{
+    font-size: large;
+}
+.titulo{
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+.checkbox{
+    margin-top: 10px;
+}
